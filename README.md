@@ -92,7 +92,7 @@ To set up a conda environment, the following instructions must be followed.
     BiocManager::install(c("scran","MAST","monocle","ComplexHeatmap","slingshot"), version = "3.8")
     ```
  
-## for the macos
+## for the macos(na added)
 ```
 conda info --envs
 conda create --name/ -n sc_tutorial
