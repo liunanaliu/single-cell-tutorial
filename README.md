@@ -115,6 +115,7 @@ cd ../  #To get to the main github repo folder
 mkdir -p data/Haber-et-al_mouse-intestinal-epithelium/
 cd data/Haber-et-al_mouse-intestinal-epithelium/
 wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92332/suppl/GSE92332_RAW.tar
+or https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE92332&format=file (###na added)
 mkdir GSE92332_RAW
 tar -C GSE92332_RAW -xvf GSE92332_RAW.tar
 gunzip GSE92332_RAW/*_Regional_*
